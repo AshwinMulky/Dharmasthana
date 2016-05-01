@@ -411,11 +411,18 @@ header.header-post .post-heading .post-subheading {
   margin-bottom: 0;
 }
 
-.page-text{
+.page-text-kannada{
 	font-weight: bold;
-	padding: 50px;
+	padding: 10px;
  	color: #A11B1B;
-	line-height: 250%;
+	line-height: 200%;
+}
+
+.page-text-others{
+	font-weight: bold;
+	padding: 10px;
+ 	color: #B76D2E;
+	line-height: 200%;
 }
 
 .pudar{

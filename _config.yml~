@@ -30,7 +30,7 @@ navbar-links:
   Home: ""
   Posts: "show-posts"
   Events: "events"
-  Gallery: "gallery"
+  Gallary: "gallary"
   Daiva Nudi: "http://daivanudi.dharmasthana.in"
   
 # --- Footer options --- #
