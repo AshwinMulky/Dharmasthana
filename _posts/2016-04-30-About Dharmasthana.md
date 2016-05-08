@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Dharmasthana
+title: Dharmasthana
 ---
 
 <h3 class="page-text-others">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karnad Shri Dharmasthana is one of the place for supernatural spirit worship in Mangalore. Karnad is located near to Mulki in Mangalore. The name of supernatural spirits(Bhuta in Tulu, Daiva in Kannada) worshipped in this place are -
