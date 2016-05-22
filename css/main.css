@@ -429,3 +429,19 @@ header.header-post .post-heading .post-subheading {
 font-weight: 800;
 color: #171180;
 }
+
+.gallery-img{
+	 margin: 5px;
+    float: left;
+    width: 270px;
+}
+
+/*.gallery-img:hover {
+    border: 1px solid #777;
+    width: 100%;
+}*/
+
+.gallery-img img {
+    width: 100%;
+    height: auto;
+}
