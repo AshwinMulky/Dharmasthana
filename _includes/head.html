@@ -49,6 +49,9 @@
     {% endfor %}
   {% endif %}
   
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.css" rel="stylesheet">
+  
   <!-- Facebook OpenGraph tags -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:type" content="website" />
@@ -66,6 +69,23 @@
   {% else %}
   <meta property="og:image" content="" />
   {% endif %}
+
+<script src="//code.jquery.com/jquery.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function ($) {
+
+// delegate calls to data-toggle="lightbox"
+$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+	event.preventDefault();
+	return $(this).ekkoLightbox({
+	always_show_close: true
+	});
+});
+
+});
+</script>
 
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <script>
